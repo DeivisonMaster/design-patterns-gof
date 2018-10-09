@@ -1,6 +1,6 @@
 package pattern.strategy;
 
 public interface Imposto {
-	
-	double calcula(Orcamento orcamento);
+
+	double realizaCalculo(Orcamento orcamento);
 }

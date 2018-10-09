@@ -2,7 +2,7 @@ package pattern.strategy;
 
 public class ICMS implements Imposto{
 	
-	public double calcula(Orcamento orcamento) {
+	public double realizaCalculo(Orcamento orcamento) {
 		return orcamento.getValor() * 0.1;
 	}
 }

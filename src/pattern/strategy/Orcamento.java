@@ -1,6 +1,7 @@
 package pattern.strategy;
 
 public class Orcamento {
+	
 	private double valor;
 
 	public Orcamento(double valor) {
