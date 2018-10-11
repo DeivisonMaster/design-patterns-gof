@@ -5,16 +5,16 @@ import java.util.Collections;
 import java.util.List;
 
 public class Orcamento {
-	private final double valor;
-	private final List<Item> itens;
+	private double valor;
+	private List<Item> itens;
 	
 	public Orcamento(double valor) {
 		this.valor = valor;
-		itens = new ArrayList<>();
+		this.itens = new ArrayList<>();
 	}
 	
 	public void adicionaItem(Item item) {
-		itens.add(item);
+		this.itens.add(item);
 	}
 	
 	public double getValor() {
